@@ -1,0 +1,118 @@
+.wp{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;            
+}
+.page{
+    font-size: 72px;
+    line-height: 320px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.page1{
+     background: url(../image/p1.jpg) no-repeat center center;
+    background-size: 100%;
+}
+.page2{
+
+    background: url(../image/p2.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+
+.page3{
+      background: url(../image/p3.jpg) no-repeat center center;
+    background-size: 100%;
+
+}
+
+
+.page4{
+  background: url(../image/p4.jpg) no-repeat center center;
+    background-size: 100%;
+    margin:0px;
+    padding:0px;  
+    line-height: 0px;
+}
+
+
+.img41{ 
+position: absolute;
+    width: 60%;
+    top: 95.3%;
+     left: 20%;
+
+}
+.img41 img{ 
+    width: 100%;
+  
+
+}
+
+
+/* 箭头 */
+@-webkit-keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        -webkit-transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        -webkit-transform: translate(0, -5px);
+    }
+}
+@keyframes start {
+    0%,30% {
+        opacity: 0.2;
+        transform: translate(0,10px);
+    }
+    60% {
+        opacity: 1;
+        transform: translate(0,0);
+    }
+    100% {
+        opacity: 0.2;
+        transform: translate(0, -5px);
+    }
+}
+.start{
+    position: absolute; ;
+    left: 50%;
+    margin-left: -17px;
+    top: 98%;
+    margin-top: -34px;
+    width: 34px;
+    height: 34px;
+}
+.start b{
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -9px;
+    width: 19px;
+    height: 12px;
+    background: url(img/arrow.png);
+    background-size: 100% 100%;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+    animation: start 1.5s infinite ease-in-out;
+}
+.start1{
+    top: 24%;
+}
+.start2{  
+    top: 49%;  
+}
+.start3{  
+    top: 74%;  
+}
